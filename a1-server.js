@@ -39,10 +39,10 @@ function handleRequest(request, response){
 var server = http.createServer(handleRequest);
 
 // Lets start our server
-server.listen(server_port, server_ip_address, function(){
+server.listen(server_port, server_ip_address, function()){
     // This is the callback function which triggered when server is successfully listening (active).
     
     // ASSIGNMENT
     console.re.log("server is started (listening for user requests)");
     console.re.log(+ server_ip_address + ":" + server_port);
-});
+};
