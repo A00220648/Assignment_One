@@ -44,5 +44,5 @@ server.listen(server_port, server_ip_address, function(){
     
     // ASSIGNMENT
     console.re.log("server is started (listening for user requests)");
-    console.re.log("Im a pretty lady: " + server_ip_address + ":" + server_port);
+    console.re.log(+ server_ip_address + ":" + server_port);
 });
